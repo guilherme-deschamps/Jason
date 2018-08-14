@@ -1,0 +1,17 @@
+
+mas trestejracamo {
+
+    agent jogador1: sample_agent.asl{
+    	focus: tudo.mesa
+    }
+    
+    agent jogador2: sample_agent.asl{
+    	focus: tudo.mesa
+    } 
+    
+    workspace tudo{
+    	artifact mesa: vetor
+    }
+
+}
+
