@@ -1,0 +1,17 @@
+
+mas buraco {
+
+    agent jogador1: jogo.asl{
+    	beliefs: my_id(0)
+    	focus: mesa.baralho
+    }
+    
+    agent jogador2: jogo.asl{
+    	beliefs: my_id(1)
+    	focus: mesa.baralho
+    }
+	
+	workspace mesa {
+		artifact baralho: inc.Baralho
+	}
+}
